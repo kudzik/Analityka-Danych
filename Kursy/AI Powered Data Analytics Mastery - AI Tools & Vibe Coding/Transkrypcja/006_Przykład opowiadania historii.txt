@@ -1,0 +1,775 @@
+Witam was wszystkich w tym filmie.
+
+W tym filmie postaramy się zrozumieć czym jest opowiadanie historii na przykładzie.
+
+Prawy.
+
+Tak więc w poprzedniej sesji rozmawialiśmy o procesie analizy danych i rozmawialiśmy o storytellingu.
+
+Weźmy więc przykład z tej sesji, aby lepiej to zrozumieć.
+
+Załóżmy więc, że pracujesz jako analityk danych w organizacji.
+
+A potem w tej konkretnej organizacji są też inne zespoły, z którymi musisz współpracować
+
+pracować z.
+
+Prawy.
+
+Powiedzmy więc, że istnieje zespół biznesowy, który może dać dane wejściowe zespołowi inżynierii danych do wykonania
+
+Zmiany w danych, które są utrzymywane przez zespół inżynierii danych.
+
+A następnie zespół inżynierów danych zasadniczo utrzymuje dane w formie, dzięki czemu można je wykorzystać do
+
+do celów sprawozdawczych.
+
+Możesz go używać do celów raportowania.
+
+Pracujesz jako analityk danych.
+
+A potem, gdy już utworzysz raporty lub pulpity nawigacyjne, za pomocą których pokazujesz lub reprezentujesz różne
+
+spostrzeżenia lub przydatne informacje, pokazujesz je swoim menedżerom, a następnie Twoi menedżerowie mogą podjąć odpowiednie działania
+
+Decyzje biznesowe na podstawie utworzonych raportów lub pulpitów nawigacyjnych.
+
+Więc, uh, to było wyjaśnienie zespołów, z którymi teraz pracujesz.
+
+Są dwa przypadki, które są wam dane.
+
+Jest przypadek pierwszy, a potem jest przypadek drugi.
+
+Dla pierwszego przypadku mamy do dyspozycji wartości zysku i wartości sprzedaży.
+
+Tak więc na razie otworzyłem zakładkę zysku pierwszego.
+
+Na tej zakładce widać, że mamy tutaj napisane miesiące, które są podświetlone na ekranie od dnia
+
+teraz.
+
+A na górze możesz zobaczyć, że mamy różne nazwy regionów.
+
+A potem mamy różne wartości zysku, które są nam podawane.
+
+Podobnie, jeśli mówię o sprzedaży jednej zakładce, więc reprezentowane są odpowiednie wartości sprzedaży lub
+
+pokazane tutaj dla różnych miesięcy i różnych regionów.
+
+To dotyczy przypadku pierwszego.
+
+Teraz idziemy do przodu.
+
+Podobnie dla przypadku drugiego mamy wartości zysku, które są widoczne w zakładce zysk drugi.
+
+I podobnie mamy wartości sprzedaży, uh dla drugiego przypadku, które są dostępne w sprzedaży dwa do zakładki, którą ty
+
+można zobaczyć od teraz na ekranie.
+
+Podobnie, mamy miesiące po lewej stronie, które widzisz.
+
+A tutaj na górze mamy nazwy różnych regionów.
+
+A potem te odpowiadające im wartości są nam tutaj dane.
+
+Więc teraz musisz wyciągnąć pewne spostrzeżenia na podstawie tych danych.
+
+Następnie musisz przedstawić te szczegółowe informacje, które mogą korzystać z raportu usługi Power BI dla menedżerów, aby
+
+Na tej podstawie mogą podejmować odpowiednie decyzje.
+
+To jest scenariusz, który jest ci przedstawiony również w tym kursie.
+
+Zamierzamy skupić się głównie na Chennai dla analityków danych.
+
+Prawy?
+
+Tak więc w tym konkretnym kursie nie będziemy omawiać części pobierania i instalowania
+
+Narzędzia analizy biznesowej, takie jak Power BI.
+
+I oczekuje się, że masz podstawowe pojęcie o narzędziach BI, takich jak Power BI, ponieważ tutaj będziesz
+
+Zobacz wszystko w akcji.
+
+W tym konkretnym kursie skupimy się głównie na Chennai dla analityka danych.
+
+Prawy?
+
+Ale jeśli chcesz dowiedzieć się więcej o, uh, podstawach tematów takich jak Power BI, to uruchomiliśmy
+
+Jeszcze jeden kurs, uh, aby dostać się do analizy danych, który jest kompletnym bootcampem analityka danych od
+
+od podstaw do zaawansowanych.
+
+Jeśli wiesz o narzędziach BI, takich jak Power BI, to w porządku.
+
+Jeśli chcesz najpierw dowiedzieć się o wszystkich tych rzeczach, możesz zapoznać się z naszym Bootcampem dla analityków danych.
+
+Podam link w polu opisu poniżej.
+
+Załóżmy teraz, że zdecydowałeś się użyć programu Power BI Desktop w celu przeanalizowania danych, które mamy
+
+właśnie omówione.
+
+Więc po prostu kliknę dwukrotnie tę ikonę programu Power BI Desktop.
+
+I otworzy dla nas Power BI Desktop.
+
+Otwarcie może zająć trochę czasu.
+
+W porządku.
+
+Więc.
+
+Koniec.
+
+Poczekajmy chwilę, a teraz po prostu kliknę Pusty raport.
+
+I tutaj widać, że mamy możliwość bezpośredniego kliknięcia skoroszytu programu Excel.
+
+Możesz też po prostu kliknąć Pobierz dane.
+
+a następnie możesz kliknąć skoroszyt programu Excel.
+
+Ponieważ musimy zaimportować dane ze skoroszytu programu Excel, dlatego wybraliśmy tę opcję.
+
+A teraz po prostu kliknę dwukrotnie ten skoroszyt Przykładowe opowiadanie historii danych, ponieważ musimy użyć
+
+To do raportowania.
+
+A teraz po prostu zaznaczę pola przed tabelami, które chcemy, aby były tam używane do raportowania.
+
+Więc po prostu najpierw wybiorę tę pierwszą opcję.
+
+To jest zysk jeden.
+
+Następnie wybiorę zysk dwa, sprzedaż jeden i sprzedaż dwa.
+
+A potem po prostu kliknę na transformację, ponieważ będziemy musieli przeprowadzić jakieś czyszczenie danych
+
+operacje tutaj w Edytorze Power Query.
+
+Jest to w zasadzie Power Query Editor w Power BI i tylko wtedy będziemy mogli wykorzystać dane do
+
+do celów sprawozdawczych.
+
+Tak więc w poprzedniej sesji, hm, w zasadzie powiedziałem wam o tym, kiedy pracujemy jako analitycy danych
+
+w czasie rzeczywistym i danych branżowych, które są nam dostarczane, na ogół nie są one w formie, w której możemy bezpośrednio
+
+Używaj go do celów raportowania, prawda?
+
+Dlatego przede wszystkim postaramy się sprowadzić dane w formie, w której będziemy mogli je wykorzystać do tworzenia różnych
+
+rodzaje wykresów i wizualizacji w celu pokazania określonych szczegółowych informacji.
+
+A więc najpierw kliknę tutaj na jedną tabelę proroka, a potem po prostu kliknę tutaj na Wschód
+
+Kolumna.
+
+Nacisnę Control z klawiatury, a następnie kolumnę zachodnią, kliknę kolumnę zachodnią, następnie północ, a następnie południe
+
+na karcie Przekształć.
+
+Tutaj widać, że mamy możliwość cofnięcia przestawienia tych kolumn.
+
+Po prostu kliknij Cofnij przestawianie kolumn, a zobaczysz teraz, że nazwy miesięcy są zapisane w pierwszej kolumnie.
+
+Więc kliknij dwukrotnie na te miesiące i regiony tutaj i po prostu zmień to na miesiące tylko dlatego, że teraz
+
+składa się z nazw różnych miesięcy.
+
+A potem tutaj dla tej kolumny atrybutów możesz również zmienić jej nazwę.
+
+Kliknij dwukrotnie atrybut i zmień jego nazwę na region.
+
+A potem mamy tutaj wartości, ale to po prostu reprezentuje wartość zysku.
+
+Możesz więc dwukrotnie kliknąć wartość i nazwać ją zyskiem i po prostu nacisnąć enter.
+
+Podobnie, kliknij tabelę zysku dwa i po prostu wybierz te cztery kolumny, czyli Wschód, Zachód, Północ
+
+i południe.
+
+Po wybraniu tych czterech kolumn na karcie przekształcenia po prostu kliknij Cofnij przestawienie kolumn.
+
+Następnie pierwsza kolumna składa się z nazw miesięcy.
+
+Kliknij go dwukrotnie i po prostu zmień jego nazwę na miesiąc.
+
+A następnie dla kolumny atrybutów kliknij dwukrotnie kolumnę atrybutów, zmień nazwę na region, a następnie
+
+W polu Kolumna Wartość kliknij dwukrotnie wartość i zmień nazwę na Zysk.
+
+Podobnie w przypadku jednej tabeli sprzedaży można zaznaczyć wszystkie kolumny.
+
+Na karcie przekształcenia kliknij Unpivot.
+
+Zmień nazwę pierwszej kolumny na miesiąc, kolumnę atrybutu na region, a następnie kolumnę wartości na sprzedaż
+
+Ponieważ tutaj reprezentowana jest wartość sprzedaży.
+
+Podobnie, kliknij dwukrotnie, po prostu kliknij sprzedaż, aby tabelę.
+
+Przepraszam.
+
+Następnie zaznacz wszystkie kolumny z wyjątkiem pierwszej kolumny.
+
+Zaznacz wszystkie pozostałe kolumny.
+
+Następnie na karcie przekształcenia kliknij Unpivot.
+
+Zmień nazwę pierwszej kolumny na miesiąc, atrybut na region i wartość na sprzedaż.
+
+W porządku.
+
+Jest jeszcze jedna rzecz, na którą powinieneś zwrócić uwagę.
+
+Pisownia miesiąca kwiecień jest niepoprawna.
+
+Jest to część, która jest tutaj napisana.
+
+Chcemy, żeby to był kwiecień.
+
+Tak też zrobię.
+
+Przede wszystkim kliknijmy na zysk tylko jedną tabelę.
+
+Zacznijmy od zmian od samego tego momentu.
+
+Kliknij prawym przyciskiem myszy kolumnę z tego miesiąca.
+
+A potem masz możliwość zamiany wartości w miejsce kwietnia.
+
+Chcemy, aby kwiecień został napisany i po prostu kliknij OK.
+
+Podobnie, aby uzyskać zysk z dwóch tabel, kliknij prawym przyciskiem myszy kolumnę miesiąca, a następnie możesz zastąpić wartości.
+
+A zamiast Apr możesz napisać Apr w porządku.
+
+Podobnie dla sprzedaży w jednej tabeli kliknij prawym przyciskiem myszy kolumnę miesiąca.
+
+Zamień wartości na kwiecień.
+
+Podobnie w przypadku sprzedaży dwie tabele kliknij prawym przyciskiem myszy kolumnę miesiąca.
+
+Zamień wartości, zmień kwiecień na kwiecień i po prostu kliknij okej.
+
+Teraz, ponieważ chcemy zastosować wszystkie zmiany, które wprowadziliśmy w tym miejscu w Edytorze Power Query, zrobimy to
+
+po prostu kliknij kartę główną, a następnie kliknę listę rozwijaną zamknij i zastosuj, którą możesz zobaczyć tutaj i
+
+Po prostu kliknij Zastosuj.
+
+Więc teraz zastosuje się wszystkie zmiany.
+
+I pozostaniesz tutaj, w Edytorze Power Query, w samej usłudze Power BI.
+
+Prawy.
+
+Dlatego zastosowanie zmian może zająć trochę czasu.
+
+Nie martw się.
+
+Poczekamy jeszcze jakiś czas.
+
+Przejdźmy teraz do widoku raportu w programie Power BI Desktop.
+
+A spróbujmy stworzyć dwustronicowy raport power BI, za pomocą którego postaramy się zrozumieć scenariusz.
+
+A potem ostatecznie omówimy opowiadanie historii na tym przykładzie.
+
+Więc teraz po prostu kliknę zamknij i zastosuj, a przeniesie nas to do widoku raportu w programie Power BI Desktop.
+
+Ale zanim jeszcze zaczniemy dyskusję na temat, uh, tworzenia różnych wykresów w różnych raportach
+
+Stron.
+
+Po prostu kliknę Widok modelu, aby sprawdzić, czy istnieje jakaś relacja między dowolnymi dwiema tabelami
+
+w zbiorze danych, ponieważ tutaj w tym przypadku nie chcemy, aby istniała jakakolwiek relacja.
+
+Tak więc na razie możemy po prostu zobaczyć, że nie ma żadnych relacji między żadnymi dwiema danymi tabelami.
+
+Więc po prostu ponownie kliknę Widok raportu.
+
+I zrobię to.
+
+Teraz przede wszystkim zwińmy ten filtr.
+
+A tutaj mamy okienko wizualizacji i okienko danych, będę tworzył dwustronicowy raport Power BI
+
+w celu zrozumienia tej sprawy.
+
+Więc przede wszystkim tutaj, zamiast strony pierwszej, po prostu kliknę tutaj dwukrotnie.
+
+Na dole widać kontrolkę A.
+
+A przede wszystkim przemianuję go na zysk.
+
+Na tej stronie będziemy porównywać wartości zysków dla różnych miesięcy i różnych regionów dla obu
+
+przypadki, o których mówiliśmy na początku.
+
+Stworzę również stronę do porównania wartości sprzedaży dla obu przypadków.
+
+Więc po prostu kliknę ikonę plusa i miejsce pierwszej strony.
+
+Kliknę dwukrotnie kontrolkę A, nazwijmy ją jako sprzedaż i ponownie kliknę zakładkę zysk.
+
+Ponownie strona zysku.
+
+I kliknę pusty obszar na płótnie.
+
+Następnie kliknijmy Wykres liniowy pod ikoną wykresu liniowego w okienku wizualizacji.
+
+Utworzy to dla nas pusty wykres liniowy.
+
+W porządku.
+
+Zmieńmy więc trochę rozmiar tego wykresu.
+
+W porządku.
+
+I powiedzmy, że na tym wykresie przede wszystkim chcemy przedstawić zysk dla różnych regionów i różnych
+
+miesięcy w przypadku pierwszego przypadku.
+
+Zwińmy więc tę tabelę zysku dwa pod panelem danych.
+
+Rozwińmy tabelę zysku o jeden pod panelem danych, kliknij dwukrotnie kolumnę miesięcy.
+
+Przeciągnij i upuść go tutaj.
+
+I łyżka z osią x.
+
+Kliknij dwukrotnie kolumnę zysku.
+
+Przeciągnij i upuść go tutaj w zasobniku osi Y.
+
+Następnie kliknij dwukrotnie kolumnę regionu i przeciągnij i upuść ją tutaj w legendach.
+
+Widać więc, że to jest rodzaj wykresu, który udało nam się stworzyć.
+
+A ponieważ dotyczy to przypadku pierwszego, wartości zysku dla przypadku pierwszego.
+
+Kliknijmy więc tutaj na tym wykresie.
+
+Kliknij sformatuj ogólny tytuł wizualizacji.
+
+I na samym końcu tego tytułu lub czegokolwiek, co jest napisane w nawiasie, po prostu wspomnij o przypadku
+
+Jeden.
+
+W porządku.
+
+Więc to jest nasz przypadek pierwszy.
+
+Teraz kliknijmy tutaj na początku, ponownie kliknij, sformatuj swoje ogólne efekty wizualne.
+
+I zmieńmy obramowanie na jedno.
+
+W porządku.
+
+Teraz kliknij pusty obszar na płótnie.
+
+Kliknij ten pierwszy wykres, który utworzyłeś.
+
+Sterowanie C sterowanie V.
+
+Przesuń nowo utworzony wykres po prawej stronie.
+
+Kliknij go dwukrotnie i po prostu przesuń go po prawej stronie.
+
+W okienku wizualizacji usuń kolumnę z tego miesiąca z zasobnika osi X.
+
+Ponieważ teraz będziemy używać wszystkich pól z tabeli proroka dwa dla drugiego przypadku.
+
+Usuń więc miesiące z zasobnika osi x.
+
+Usuń część proroka z zasobnika osi y i regionu z wiadra legends legends.
+
+Zawal proroka na jeden stół.
+
+Rozwiń tabelę zysk dwa.
+
+Kliknij dwukrotnie miesiąc.
+
+Przynieść.
+
+Przynieś go tutaj w zasobniku osi x.
+
+Przepraszam.
+
+Kliknij dwukrotnie na zysk.
+
+Przynieś go tutaj w zasobniku osi y.
+
+Kliknij dwukrotnie na bring it here i legends bucket.
+
+Więc to widać.
+
+Teraz utworzyliśmy jeszcze jeden wykres.
+
+A teraz ten wykres, który stworzyliśmy, aby przedstawić wartości zysku dla różnych regionów i miesięcy
+
+jest w zasadzie dla przypadku drugiego.
+
+Więc kliknij tutaj na ten wykres.
+
+Następnie sformatuj tytuł wizualny ogólny i kliknij tytuł.
+
+Naciśnij i z klawiatury zamiast przypadku pierwszego, po prostu wpisz wielkość liter drugą i naciśnij enter.
+
+To są dwa wykresy, które utworzyliśmy dla tych dwóch przypadków.
+
+Pierwszy wykres reprezentujący wartość zysku dla pierwszego przypadku i drugi wykres reprezentujący zysk
+
+wartość dla drugiego przypadku.
+
+Podobnie, uh, kliknijmy tutaj na ten pierwszy wykres kontrolny C kliknij na stronie sprzedaży.
+
+Kliknij pusty obszar na płótnie.
+
+Gdziekolwiek tutaj.
+
+Kontrola v.
+
+A teraz ponownie w okienku wizualizacji usuń kolumnę z tego miesiąca z zasobnika osi X.
+
+Suma zysku z osi Y.
+
+Zasobnik i region z zasobnika legendy.
+
+Teraz rozwiń tabelę sprzedaży o jeden.
+
+Przede wszystkim i złóż zysk do tabeli.
+
+Kliknij dwukrotnie miesiąc.
+
+Przenieś to do sprzedaży zasobnika osi X w zasobniku osi Y i regionu w zasobniku legend.
+
+Prosty.
+
+W porządku, kliknij tutaj na ten pierwszy wykres, który utworzyłeś na stronie sprzedaży.
+
+Kontrolka C, kontrolka V, kliknij dwukrotnie na nowo utworzony wykres.
+
+Przesuń go na prawą stronę.
+
+Zostawmy to gdzieś tutaj.
+
+Usuń miesiąc z segmentu sprzedaży na osi x z zasobnika osi y i region z zasobnika legend.
+
+Zwiń jedną tabelę sprzedaży.
+
+Rozwiń tabelę sales two (sprzedaże dwa).
+
+Kliknij dwukrotnie miesiąc.
+
+Przenieś to do osi X Sprzedaż.
+
+Przenieś go przez wiadro dostępu i kliknij dwukrotnie region i przenieś go do wiadra legend.
+
+Dlatego teraz stworzyliśmy nasze dwa wykresy, aby porównać wartości sprzedaży.
+
+Zasadniczo w dwóch przypadkach, o których mówiliśmy na początku.
+
+Kliknij także na drugi wykres.
+
+Kliknij pozycję Formatuj wizualizację w okienku wizualizacji Tytuł ogólny.
+
+Kliknij tutaj tekst, który możesz zobaczyć tutaj, a następnie naciśnij Enter na klawiaturze.
+
+Zamiast przypadku pierwszego po prostu wpisz przypadek drugi i naciśnij enter.
+
+W porządku, przede wszystkim spróbujmy zmienić etykiety danych dla różnych wykresów na włączone, abyśmy
+
+może zobaczyć liczby na wykresach.
+
+Więc po prostu kliknę tutaj w tym przypadku drugi wykres dla sprzedaży.
+
+Cóż, po prostu kliknij Formatuj swoją wizualizację.
+
+Następnie przewinię w dół i zmienię etykiety danych na włączone.
+
+Podobnie kliknijmy pierwszy wykres na tej stronie i zmieńmy etykiety danych na jeden.
+
+Kliknij stronę zysku.
+
+Kliknij drugi wykres, który jest wykresem przypadku drugiego.
+
+Kliknij format, aby wyświetlić obraz.
+
+Przewiń w dół.
+
+Zmień etykiety danych na jedną.
+
+Podobnie kliknij pierwszy wykres i zmień etykiety danych na jeden z tego miejsca.
+
+Kliknijmy teraz na stronę sprzedaży.
+
+Prawy.
+
+Spróbujmy porównać i przeanalizować spostrzeżenia lub informacje, które wyciągnęliśmy z danych.
+
+Tak więc, jak wspomniano wcześniej, pracujesz jako analityk danych w tym konkretnym scenariuszu.
+
+I musisz, w zasadzie utworzyłeś dwustronicowy raport Power BI.
+
+Na pierwszej stronie reprezentują wartości zysku.
+
+Na drugim z nich reprezentują wartości sprzedaży dla dwóch obserwacji, dwóch różnych obserwacji, które były
+
+dane ci na samym początku.
+
+Prawy.
+
+Więc jeśli teraz spróbujesz porównać wartości sprzedaży na tej stronie, uh, dla różnych regionów i dla
+
+różne miesiące, zobaczysz, że zmiana ponieważ są to dwa różne przypadki.
+
+Więc oczywiście wartość sprzedaży będzie inna.
+
+Uh, ale zobaczysz, że zmiana wartości sprzedaży nie jest bardzo dużą zmianą.
+
+Wartości, które są reprezentowane na ekranie, są w zasadzie w crores.
+
+I nie sądzę, żeby dla danego regionu i danego miesiąca zmiany były nawet większe niż 5060
+
+lakhs, prawda?
+
+Nie jest to więc bardzo duża zmiana.
+
+Uh, a jeśli porównasz różne wartości, będą one wydawać ci się prawie podobne.
+
+Na przykład, jeśli mówię o regionie wschodnim.
+
+Tak więc w obu przypadkach zobaczysz, że wartości pozostały uh, od 4 do 6.
+
+I podobnie dla twojego zachodniego regionu, zobaczysz, że wartości pozostały między 6 a
+
+8.
+
+I podobnie możesz porównać w innych przypadkach.
+
+Prawy.
+
+Chociaż jest pewna zmiana.
+
+Ale ta zmiana nie jest bardzo dużą zmianą dla tych dwóch przypadków.
+
+Prawy.
+
+Za wartość sprzedaży.
+
+Ale jeśli klikniesz na stronę zysku i spróbujesz porównać wartości zysku dla tych
+
+Dwa przypadki dla różnych regionów w miesiącach.
+
+Tak więc dla regionu wschodniego, regionu zachodniego i regionu południowego zobaczysz, że wartości zysku mają
+
+pozostały prawie podobne, chociaż są pewne zmiany, a ponieważ są różne, dwa, dwa
+
+różne przypadki, więc spodziewane są pewne zmiany.
+
+Ale jeśli spojrzysz na region północny.
+
+Tak więc w marcu i kwietniu zobaczysz, że w drugim przypadku nastąpi ogromny spadek.
+
+Tak więc wartość faktycznie drastycznie zmieniła się z 6,8 crores na 2,7 crores.
+
+A potem w kwietniu zmienił się z 2,7 crores do dwóch crore.
+
+Dalej jest więc spadek.
+
+Więc teraz pracujesz jako analityk danych, prawda?
+
+I to Ty stworzyłeś ten dwustronicowy raport.
+
+Uh, jeśli chodzi o opowiadanie historii, już o tym rozmawialiśmy.
+
+W rzeczywistości obejmuje to nie tylko wybór odpowiedniego rodzaju wizualizacji, aby pokazać spostrzeżenia, ale także
+
+ale chodzi również bardziej o racjonalizację zmian, trendów lub wzorców, które obserwujesz lub
+
+Zobacz w swoich danych.
+
+Tak więc teraz, ponieważ pracujesz jako analityk danych, Twoim obowiązkiem jest znalezienie informacji
+
+Powód tej konkretnej zmiany.
+
+Bo na pewno, kiedy pokażecie ten raport swoim przełożonym, na pewno poproszą nas, żebyśmy
+
+można zaobserwować ogromny spadek wartości zysku w marcu.
+
+W przypadku drugim, racja.
+
+Podczas gdy wartość sprzedaży prawie pozostała taka sama, prawie pozostaje podobna w dwóch przypadkach, które zostały
+
+dane tobie.
+
+Ale w przypadku drugim jest ogromny spadek.
+
+Jeśli chodzi o wartości zysku, to wybrałeś odpowiedni rodzaj wizualizacji.
+
+Jest to wykres liniowy reprezentujący te szczegółowe informacje, ale teraz należy również zracjonalizować tę zmianę.
+
+W tym celu może być również wymagane komunikowanie się z innymi zespołami.
+
+Prawy.
+
+W porządku.
+
+Więc teraz zdecydowałeś się dotrzeć do różnych zespołów.
+
+Inne zespoły, które masz w swojej organizacji.
+
+A teraz chcesz dowiedzieć się, jaka jest przyczyna tego spadku zysku w regionie północnym, który widzisz,
+
+Prawy.
+
+Ponieważ będziesz musiał dać powód również swoim menedżerom.
+
+Więc, uh, otwórzmy arkusz Excela, który mamy.
+
+A tutaj, na tym arkuszu Excela, możesz zobaczyć, że to są różne zespoły, które mamy.
+
+Pracujesz jako analityk danych w zespole zajmującym się analizą danych.
+
+Kiedy więc skontaktowałeś się z zespołem inżynierii danych i zespołem biznesowym, dowiedziałeś się, że
+
+Zespół inżynierii danych w zasadzie utrzymuje dane tak, jak omówiliśmy wcześniej, prawda?
+
+Utrzymują więc dane w postaci dwóch tabel.
+
+Pierwszy stół jest stołem głównym.
+
+Druga tabela to tabela stawek podatkowych.
+
+Prawy.
+
+Utrzymują dane w postaci dwóch tabel.
+
+Stosują one pewne rodzaje sprzężeń między tymi dwiema tabelami.
+
+Są też obliczenia matematyczne, które są wykorzystywane do generowania wartości zysku.
+
+Prawy.
+
+A więc wartość zysku, która była reprezentowana w raporcie usługi Power BI, jest w rzeczywistości zależna od
+
+stawki podatkowej.
+
+Prawy.
+
+I ta wartość stawki podatkowej jest utrzymywana przez zespół inżynierów danych w bazie danych w danej tabeli.
+
+Tak więc zespół inżynierów danych powiedział ci, że otrzymał dane wejściowe od zespołu biznesowego, aby wprowadzić zmiany
+
+w wartościach stawek podatkowych dla regionu północnego za miesiąc marzec i kwiecień dla przypadku drugiego.
+
+To dlatego zaobserwowaliście ten spadek wartości zysków w regionie północnym.
+
+Więc masz ten region z powodu, przepraszam, od zespołu inżynierii danych.
+
+Zostali oni poinstruowani, aby wprowadzić zmiany w tabelach zawartych w ich bazach danych przez firmę
+
+zespół.
+
+Więc hm, ostatecznie wpłynęło to na wartości zysków.
+
+Prawy.
+
+Na początku używałeś arkusza Excel, w zasadzie skoroszytu Excela do tworzenia raportu Power BI.
+
+Tak więc zespół inżynierów danych zasadniczo korzysta z danych z bazy danych.
+
+A następnie dostarczają Ci dane w postaci arkusza Excel.
+
+A ty pracujesz jako analityk danych.
+
+Dane te są wykorzystywane bezpośrednio do celów sprawozdawczych.
+
+Tak to działa.
+
+Więc teraz masz powód do takiego spadku wartości zysku w drugim przypadku, który zaobserwowałeś.
+
+Prawy.
+
+Uh, skoro stawki podatkowe zostały podniesione, może to być spowodowane tym, że rząd podjął jakąś decyzję w tej sprawie.
+
+Więc teraz menedżerowie mogą podjąć decyzję, uh, odpowiednio, w przypadku, gdy chcą podjąć odpowiednie
+
+decyzja, może być, uh, mogą rozmawiać z innymi liderami w celu obniżenia wartości podatkowych, jeśli nie ma
+
+to jakieś obejście.
+
+Prawy.
+
+Mogą więc na tej podstawie podjąć ważną decyzję, aby zwiększyć wartość zysku lub
+
+Wiedz, um, zdobądź trochę, trochę więcej korzyści z tego, co jest istniejącą sytuacją.
+
+Więc, hm, w ten sposób pomagamy firmom uzyskać jakieś korzyści.
+
+Może to być związane ze zwiększeniem zysku, zwiększeniem przychodów lub optymalizacją jakiegoś innego biznesu
+
+proces.
+
+Tak więc w tym przykładzie pracowałeś jako analityk danych i nie tylko wybrałeś odpowiednie
+
+Rodzaj wizualizacji, aby pokazać wgląd, ale masz również, no wiesz, oczyszczone, przygotowane i uporządkowane
+
+danych, a następnie wybrałeś odpowiedni rodzaj wizualizacji.
+
+Oczywiście jest to wykres liniowy.
+
+A potem, uh, zracjonalizowałeś zmiany lub wzorce, które zaobserwowałeś w swoich danych.
+
+Na tym właśnie polega opowiadanie historii.
+
+I to jest w zasadzie praca analityka danych.
+
+Tak więc w poprzedniej sesji rozmawialiśmy o tym, że bierzemy przykład, aby zrozumieć opowiadanie historii
+
+lub analiza danych działa lepiej.
+
+To był tylko przykład.
+
+Chciałbym również zwrócić państwa uwagę na to, że w tym konkretnym przykładzie rozważyliśmy
+
+tylko cztery rejestrują dane bezpośrednio w arkuszu Excel.
+
+Ale generalnie w czasie rzeczywistym ilość danych jest duża, a dane, które otrzymujemy, są na ogół niechlujne,
+
+Nieczyste dane.
+
+Prawy.
+
+Tak więc w takich przypadkach staje się to bardzo trudne dla osób nietechnicznych, dla ludzi biznesu lub
+
+zainteresowanych stron, którzy na ogół nie mają wykształcenia technicznego.
+
+Trudno im podejmować decyzje na podstawie tych danych.
+
+Prawy?
+
+I tu właśnie wkraczamy na scenę.
+
+My, hm, tworzymy piękne raporty i dashboardy, za pomocą których staramy się opowiadać fascynujące historie,
+
+W ten sposób ostatecznie dążymy do zapewnienia organizacji pewnych korzyści.
+
+Na tym właśnie polega opowiadanie historii.
+
+Mam nadzieję, że ten przykład był bardzo pomocny w wyjaśnieniu Ci, że to, co jest w zasadzie działaniem
+
+analityka danych i mam nadzieję, że ta sesja była pomocna.
+
+Spotkamy się na następnej sesji.
+
+Do tego czasu dziękuję.
+
+Pa pa.

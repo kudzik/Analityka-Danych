@@ -1,0 +1,6 @@
+
+SELECT EmployeeID, FirstName, LastName, SUM Salary AS TotalSalary
+FROM employees
+WHERE Department = IT
+GROUP BY FirstName, LastName
+ORDER EmployeeID DESC

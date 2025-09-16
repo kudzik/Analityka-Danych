@@ -1,0 +1,12 @@
+update [dbo].[Lec 50 SQL Task]
+set name = '    Tanya Singh' where employeeid=1
+update [dbo].[Lec 50 SQL Task]
+set name = '  Tarun Verma' where employeeid=2
+
+
+-------------------------------------------------------------
+
+
+select * into [data profiling].[dbo].[jt] 
+from data1.[dbo].[Lec 50 SQL Task]
+where name like 'T%'
