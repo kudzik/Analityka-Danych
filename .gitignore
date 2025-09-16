@@ -31,17 +31,7 @@ ENV/
 .ipynb_checkpoints
 
 # Data files
-*.csv
-*.xlsx
-*.xls
-*.json
-*.parquet
-*.h5
-*.hdf5
-*.pkl
-*.pickle
-data/
-datasets/
+
 
 # Models
 *.model
